@@ -1,0 +1,224 @@
+/* CSS del index.html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #131313;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 56px;
+    background: #1c1c1c;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    color: #ef4444;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #ef4444;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px 80px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 25px;
+    color: #a1a1a1;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    background: white;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #ef4444;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding: 10px 20px;
+}
+
+.card p {
+    margin-top: 15px;
+}
+.card {
+    background: #1c1c1c;
+    padding: 25px;
+    width: 240px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.05);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ef4444;
+}
+
+.emojis {
+    margin-bottom: 18px;
+    font-size: 24px;
+}
+
+.promo {
+    background: #1c1c1c;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 40px auto;
+    transition: 0.3s;
+    max-width: 700px;
+}
+
+.promo:hover {
+    transform: translateY(-5px);
+    border-color: #ef4444;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #1c1c1c;
+    color: gray;
+}
+
+/* CSS del index.html */
+
+/* CSS del productos.html */
+
+.h1_productos {
+    text-align: center;
+    padding: 60px;
+    font-size: 55px;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+}
+
+.oferta {
+    background: black;
+    padding: 80px 40px;
+    text-align: center;
+    margin: 80px auto;
+    max-width: 900px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Glow rojo suave */
+.oferta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(239,68,68,0.15), transparent 70%);
+    opacity: 0.6;
+}
+
+/* Para que el contenido quede encima */
+.oferta * {
+    position: relative;
+}
+
+/* Badge arriba */
+.badge {
+    color: #ef4444;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+/* Título grande */
+.oferta h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Descripción */
+.descripcion {
+    color: #a1a1a1;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Precio antiguo */
+.precio-antiguo {
+    text-decoration: line-through;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+/* Precio nuevo */
+.precio {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ef4444;
+}
+
+/* Botón */
+.oferta button {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.oferta button:hover {
+    background: #ef4444;
+    color: white;
+}
