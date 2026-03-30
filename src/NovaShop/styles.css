@@ -189,6 +189,11 @@ background: #1c1c1c;
 color: gray;
 }
 
+footer a {
+    text-decoration: none;
+    color: #ef4444;
+}
+
 /* CSS del index.html */
 
 /* CSS de productos.html */
