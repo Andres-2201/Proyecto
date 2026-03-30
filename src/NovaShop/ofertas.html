@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ofertas</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">🛍️ NovaShop</div>
+            <nav class="links">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="contacto.html">Contacto</a>
+            
+                <div class="carrito">
+                    <div class="carrito-icono" id="abrirCarrito">
+                        🛒 <span id="contador">0</span>
+                    </div>
+                    <div class="carrito-dropdown" id="carritoDropdown">
+                        <div class="carrito-header">
+                            <h3>Carrito</h3>
+                            <span id="cerrarCarrito">✖</span>
+                        </div>
+                    
+                        <div id="carritoItems"></div>
+                    
+                        <div class="carrito-footer">
+                            <p>Total: <span id="total">$0</span></p>
+                            <button class="btn-pagar">Ir a pagar</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>    
+        </header>
+        <main>
+            <h1 class="titulo-ofertas">🔥 Ofertas especiales</h1>
+            <section class="oferta-principal1">
+                <h2>🔥 Setup Gamer Completo</h2>
+                <p class="description">Monitor 120 Hz + Silla Gamer + Escritorio Gamer</p>
+                <p class="precio-antiguo">$820</p>
+                <p class="precio-nuevo">$720</p>
+                <button class="btn-comprar" data-nombre="Setup Gamer Completo" data-precio="720">Comprar ahora</button>
+            </section>
+
+            <section class="oferta-principal2">
+                <h2>🔥 Perifericos Gamer</h2>
+                <p class="description">Mouse Redragon + Teclado Mecanico Redragon + MousePad Redragon + Audifonos Razer</p>
+                <p class="precio-antiguo">$230</p>
+                <p class="precio-nuevo">$170</p>
+                <button class="btn-comprar" data-nombre="Perifericos Gamer" data-precio="170">Comprar ahora</button>
+            </section>
+
+            <div class="titulo-secundarias">
+                <h2>⚡ Otras Ofertas 🔥</h2>
+            </div>
+
+            <section class="oferta-secundaria">
+                <div class="oferta-card">
+                    <h3 class="emojis">🖱️⌨️ Combo Gamer</h3>
+                    <p>Teclado Mecanico Redragon + Mouse Redragon</p>
+                    <p class="precio-antiguo">$90</p>
+                    <p class="precio-nuevo">$70</p>
+                    <button class="btn-comprar" data-nombre="Combo Gamer" data-precio="70">Comprar ahora</button>
+                </div>
+
+                <div class="oferta-card">
+                    <h3 class="emojis">🖥️ Monitores Gamer</h3>
+                    <p>Monitor 240 Hz Asus + Monitor 120 Hz Samsung + MousePad (Regalo)</p>
+                    <p class="precio-antiguo">$620</p>
+                    <p class="precio-nuevo">$550</p>
+                    <button class="btn-comprar" data-nombre="Monitores Gamer" data-precio="550">Comprar ahora</button>
+                </div>
+
+                <div class="oferta-card">
+                    <h3 class="emojis">⚡🎤 Profesional Kit</h3>
+                    <p>Stream Deak El gato + Microfono Shure + MousePad (Regalo)</p>
+                    <p class="precio-antiguo">$170</p>
+                    <p class="precio-nuevo">$130</p>
+                    <button class="btn-comprar" data-nombre="Profesional Kit" data-precio="130">Comprar ahora</button>
+                </div>
+            </section>
+
+            <div class="titulo-flash">
+                <h2>⚡🔥 SOLO HOY 🔥⚡</h2>
+                <p>50% OFF en CELULARES</p>
+            </div>
+
+            <section class="oferta-flash">
+                <div class="ofertas-flash">
+                    <h3>📱 Galaxy S25 Ultra</h3>
+                    <p class="description">528 GB - Blanco, Azul Oscuro, Negro</p>
+                    <p class="precio-antiguo">$999</p>
+                    <p class="precio-nuevo">$499</p>
+                    <button class="btn-comprar" data-nombre="Galaxy S25 Ultra" data-precio="499">Comprar</button>
+                </div>
+
+                <div class="ofertas-flash">
+                    <h3>📱 iPhone 17</h3>
+                    <p class="description">528 GB - Blanco, Azul Oscuro, Naranja</p>
+                    <p class="precio-antiguo">$1200</p>
+                    <p class="precio-nuevo">$600</p>
+                    <button class="btn-comprar" data-nombre="iPhone 17" data-precio="600">Comprar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2026 NovaShop</p>
+            <p>Todos los derechos reservados</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
